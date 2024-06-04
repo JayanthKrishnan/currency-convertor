@@ -54,7 +54,7 @@ function App() {
           <h1>Currency Convertor</h1>
           <div className="input-container">
             <label htmlFor="amt" className="label1">Amount :</label>
-            <input type="number" id="amt" value={amount} onChange={handleAmountChange}/>
+            <input type="text" id="amt" value={amount} onChange={handleAmountChange}/>
           </div>
 
           <div className="input-container">
